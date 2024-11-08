@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint 1">
+
+    <test name="Validate Login to altoro with valid credientials" preserve-order="false">
+        <classes>
+            <class name="testcases.TC01_Home">
+                <methods>
+                    <include name="ValidateSiginButtonNavigateToLoginPage"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC02_Login">
+                <methods>
+                    <include name="ValidateLoginWithValidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

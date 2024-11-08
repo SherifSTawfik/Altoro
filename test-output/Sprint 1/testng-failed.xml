@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint 1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Validate Login to altoro with valid credientials(failed)">
+    <classes>
+      <class name="testcases.TC01_Home">
+        <methods>
+          <include name="getResult"/>
+          <include name="ValidateSiginButtonNavigateToLoginPage"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setupDriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.TC01_Home -->
+      <class name="testcases.TC02_Login">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="ValidateLoginWithValidData"/>
+          <include name="setupDriver"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.TC02_Login -->
+    </classes>
+  </test> <!-- Validate Login to altoro with valid credientials(failed) -->
+</suite> <!-- Failed suite [Sprint 1] -->

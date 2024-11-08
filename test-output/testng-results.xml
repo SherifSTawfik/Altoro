@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-08T22:31:03 EET" name="Sprint 1" finished-at="2024-11-08T22:31:18 EET" duration-ms="14787">
+    <groups>
+    </groups>
+    <test started-at="2024-11-08T22:31:03 EET" name="Validate Login to altoro with valid credientials" finished-at="2024-11-08T22:31:18 EET" duration-ms="14787">
+      <class name="testcases.TC01_Home">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:03 EET" name="beforeSuite" finished-at="2024-11-08T22:31:03 EET" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:04 EET" name="setupDriver" finished-at="2024-11-08T22:31:08 EET" duration-ms="3870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="ValidateSiginButtonNavigateToLoginPage()[pri:1, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:08 EET" name="ValidateSiginButtonNavigateToLoginPage" description="Validate Signin button navigate to login page" finished-at="2024-11-08T22:31:10 EET" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSiginButtonNavigateToLoginPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:10 EET" name="getResult" finished-at="2024-11-08T22:31:10 EET" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateSiginButtonNavigateToLoginPage status=SUCCESS method=TC01_Home.ValidateSiginButtonNavigateToLoginPage()[pri:1, instance:testcases.TC01_Home@3241713e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:18 EET" name="teardown" finished-at="2024-11-08T22:31:18 EET" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC01_Home@3241713e]" started-at="2024-11-08T22:31:18 EET" name="afterSuite" finished-at="2024-11-08T22:31:19 EET" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC01_Home -->
+      <class name="testcases.TC02_Login">
+        <test-method signature="ValidateLoginWithValidData()[pri:1, instance:testcases.TC02_Login@6075b2d3]" started-at="2024-11-08T22:31:10 EET" name="ValidateLoginWithValidData" description="Check Login With Valid Data" finished-at="2024-11-08T22:31:18 EET" duration-ms="7392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginWithValidData -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC02_Login@6075b2d3]" started-at="2024-11-08T22:31:18 EET" name="getResult" finished-at="2024-11-08T22:31:18 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateLoginWithValidData status=SUCCESS method=TC02_Login.ValidateLoginWithValidData()[pri:1, instance:testcases.TC02_Login@6075b2d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- Validate Login to altoro with valid credientials -->
+  </suite> <!-- Sprint 1 -->
+  <suite started-at="2024-11-08T22:31:19 EET" name="All Test Suite" finished-at="2024-11-08T22:31:19 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+</testng-results>
